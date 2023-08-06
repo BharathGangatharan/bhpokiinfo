@@ -1,0 +1,111 @@
+.bg {
+    background-image: url('../images/pokemonbg2.jpg');
+    background-position: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+h1{
+    color: white;
+    padding-bottom: 30px;
+
+}
+
+.jumbotron {
+    padding-top: 50px;
+}
+#searchForm {
+    padding-bottom: 30px;
+}
+
+.divider {
+    display: flex;
+}
+
+.divider > div.left {
+    flex: 0 0 60%;
+}
+
+.divider > div.right {
+    flex: 0 0 40%;
+}
+
+
+.poke, div.right {
+    padding: 30px 0;
+}
+
+.cardParent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    background-color: #28392f;
+}
+
+.card h5 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.eachBtn {
+    width: auto;
+    padding: 5px 40px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 40px;
+}
+
+.prev {
+    padding: 0 25px !important;
+}
+
+.page-link, .current {
+    padding: 0 15px !important;
+    box-shadow: none !important;
+}
+
+
+.right .showContain {
+    justify-content: center;
+    display: flex;
+    padding-top: 12rem;
+    font-size: 30px;
+}
+
+.showContain >div {
+    background-color: #fff;
+    padding: 30px 20px;
+    opacity: 0.8;
+}
+.showContain h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.showContain h4 span {
+    color: #6c9323;
+}
+
+
+.showContain h4 span.caps {
+    text-transform: capitalize;
+}
